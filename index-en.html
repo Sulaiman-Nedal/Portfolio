@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sulaeman Aloradi - Persönliche Webseite</title>
+    <title>Sulaeman Aloradi - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -14,9 +14,9 @@
                 <img src="portrait.png" alt="Sulaeman Aloradi" class="logo-img">
             </a>
             <ul class="nav-links">
-                <li><a href="#projects">Projekte</a></li>
-                <li><a href="#contact">Kontakt</a></li>
-                <li><a href="index-en.html">EN</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">DE</a></li>
             </ul>
         </div>
     </nav>
@@ -26,26 +26,26 @@
         <div class="hero-content">
             <img src="portrait.png" alt="Sulaeman-Aloradi" class="profile-image">
             <h1>Sulaeman Aloradi</h1>
-            <p class="subtitle">Masterstudent der Informatik · Interessiert an Machine Learning & Natural Language Processing</p>
-            <p class="subtitle">Wissenschaftliche Hilfskraft am Fraunhofer-Institut für Solare Energiesysteme (ISE)</p>            
+            <p class="subtitle">Master's Candidate in Computer Science · Interested in Machine Learning & Natural Language Processing</p>
+            <p class="subtitle">Scientific Research Assistant at Fraunhofer ISE</p>            
             <div class="hero-buttons">
                 <a href="Sulaeman_Aloradi's_CV.pdf" class="hero-button" target="_blank">
-                    <i class="fas fa-file-pdf"></i> Lebenslauf
+                    <i class="fas fa-file-pdf"></i> View Resume
                 </a>
             </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
-        <h2>Projekte</h2>
+        <h2>Projects</h2>
 
         <div class="project-grid">
             <div class="project-card">
                 <span class="project-tag">
                     <a href="https://github.com/Sayantak/maze_navigation_MLMU" target="_blank" style="color: inherit; text-decoration: none;">b-it Project</a>
                 </span>
-                <h3>Labyrinth-Navigation mit MLM-U Mehrschritt-Vorhersage</h3>
-                <p>Implementierung eines Transformer-Modells, das mit einem Multi-Step Look-Ahead (MLM-U) Ziel trainiert wurde, um Labyrinthe zu navigieren. Erzielt höhere Genauigkeit und schnellere Konvergenz bei der Labyrinthlösung im Vergleich zur Standard-Next-Token-Vorhersage und übertrifft sogar deutlich größere Modelle sowie solche mit A*-Überwachung. Beinhaltet das vollständige Trainings- und Evaluierungs-Setup aus dem Paper "Transformers Can Navigate Mazes With Multi-Step Prediction" von Facebook Research.</p>
+                <h3>Maze Navigation with MLM-U Multistep Prediction</h3>
+                <p>Implements a transformer model trained with a Multi-Step Look-Ahead (MLM-U) objective to navigate mazes. Achieves higher accuracy and faster convergence in maze solving compared to standard next-token prediction, even outperforming much larger models and those using A* supervision. Includes full training and evaluation setup from the "Transformers Can Navigate Mazes With Multi-Step Prediction" paper by Facebook Research.</p>
             </div>
             
 
@@ -53,8 +53,8 @@
                 <span class="project-tag">
                     <a href="https://github.com/Ziad-Aamer/NLP-Lab-Uni" target="_blank" style="color: inherit; text-decoration: none;">Bonn-Uni Project</a>
                 </span>
-                <h3>Biomedizinische Beziehungsextraktion mit BioBERT, SciFive & QA4RE</h3>
-                <p>Praktisches NLP-Labor zur Untersuchung der biomedizinischen Beziehungsextraktion auf dem BioRED-Datensatz unter Verwendung von BioBERT und SciFive, einschließlich Datenvorverarbeitung/Tokenisierung, Modelltraining und Evaluierung. Implementiert außerdem einen QA-basierten Ansatz (QA4RE) für die Beziehungsextraktion.</p>
+                <h3>Biomedical Relation Extraction with BioBERT, SciFive & QA4RE</h3>
+                <p>Hands-on NLP lab exploring biomedical relation extraction on the BioRED dataset using BioBERT and SciFive, including data preprocessing/tokenization, model training, and evaluation. Also implements a QA-style framing (QA4RE) for relation extraction.</p>
             </div>            
 
 
@@ -62,22 +62,22 @@
                 <span class="project-tag">
                     <a href="https://github.com/esacon/mining-media-data-ii" target="_blank" style="color: inherit; text-decoration: none;">Bonn-Uni Project</a>
                 </span>
-                <h3>Telemetrie-basierte Abwanderungsprognose in mobilen Rennspielen</h3>
-                <p>End-to-End ML-Pipeline, die Gameplay-Features aus zwei Handyspielen generiert, Modelle für logistische Regression, Entscheidungsbäume und Random Forests erstellt und die Abwanderung innerhalb eines 10-Tage-Horizonts nach einem 5-Tage-Beobachtungsfenster bewertet. Umfasst konfigurationsgesteuerte Läufe, gespeicherte Features/Modelle/Metriken und eine Analyse der Feature-Wichtigkeit in Anlehnung an Kim et&nbsp;al. (2017).</p>
+                <h3>Telemetry-Based Churn Prediction in Mobile Racing Games</h3>
+                <p>End-to-end ML pipeline that engineers gameplay features from two mobile games, builds Logistic Regression, Decision Tree, and Random Forest models, and evaluates churn within a 10-day horizon after a 5-day observation window. Includes config-driven runs, saved features/models/metrics, and feature-importance analysis following Kim et&nbsp;al. (2017).</p>
             </div>
             
 
             <div class="project-card">
                 <span class="project-tag"><a href="https://github.com/Sulaiman-Nedal/LLM-based-Communication-Agent-for-Human-Robot-Interaction/tree/master" target="_blank" style="color: inherit; text-decoration: none;">Bonn-Uni Project</a></span>
-                <h3>Implementierung einer Sprechfunktion für Roboterkommunikation</h3>  
-                <p>Dieses Projekt ermöglicht es einem Roboter, zielgerichtete Gespräche mithilfe einer LLM-gestützten Sprechfunktion zu führen. Es gewährleistet eine effektive Kommunikation durch Generierung von Antworten, Validierung von Benutzereingaben und Anpassung, bis das Ziel erreicht ist.</p>        
+                <h3>Implementation of a Speak Function for Robot Communication</h3>  
+                <p>This project enables a robot to engage in goal-oriented conversations using an LLM-powered Speak function. It ensures effective communication by generating responses, validating user input, and adapting until the objective is met.</p>        
             </div>
 
             <div class="project-card">
                 <span class="project-tag"><a href="https://github.com/Sulaiman-Nedal/KGAT" target="_blank" style="color: inherit; text-decoration: none;">Bonn-Uni Project</a></span>
-                <h3>Feingranulare Faktenüberprüfung mit Kernel Graph Attention Network</h3>
-                <p>Nutzung des KGAT-Modells zur Klassifizierung wissenschaftlicher Behauptungen.
-                    Inspiriert durch das Forschungspapier "<a href="https://aclanthology.org/2020.acl-main.655.pdf"> Fine-grained Fact Verification with Kernel Graph
+                <h3>Fine-grained Fact Verification with Kernel Graph Attention Network</h3>
+                <p>Leveraged the KGAT model to classify scientific claims.
+                    Inspired by the research paper "<a href="https://aclanthology.org/2020.acl-main.655.pdf"> Fine-grained Fact Verification with Kernel Graph
                     Attention Network </a>".</p>
 
 
@@ -85,21 +85,21 @@
         
             <div class="project-card">
                 <span class="project-tag"><a href="https://github.com/Sulaiman-Nedal/text-summarization-tool" target="_blank" style="color: inherit; text-decoration: none;">Personal Project</a></span>
-                <h3>Textzusammenfassungs-Tool</h3>
-                <p>Nutzt sowohl extraktive als auch abstraktive Techniken zur Textzusammenfassung.</p>
+                <h3>Text Summarization Tool</h3>
+                <p>Utilizes both extractive and abstractive techniques to summarize texts.</p>
 
             </div>
             <div class="project-card">
                 <span class="project-tag"><a href="https://github.com/Sulaiman-Nedal/Medical_imaging" target="_blank" style="color: inherit; text-decoration: none;">Bonn-Uni Project</a></span>
-                <h3>Visualisierung von 3D-CT-Daten mit ParaView und VTK: Untersuchung von Isoflächen und Gittertransformationen</h3>
-                <p>Dieses Projekt beinhaltet die Verwendung von ParaView und den Python-Bindings von VTK zur Visualisierung von 3D-CT-Daten durch 2D-Schnittbilder und Isoflächen mittels Implementierung einer Visualisierungs-Pipeline.</p>
+                <h3>Visualization of 3D CT Data Using ParaView and VTK: Exploring Isosurfaces, and Grid Transformations</h3>
+                <p>This project involves using ParaView and VTK's Python bindings to visualize 3D CT data through 2D slices and isosurfaces,by implementing a visualization pipeline.</p>
             </div>
 
         </div>
     </section>
 
     <section id="links" class="links">
-        <h2>Kontaktieren Sie mich</h2>
+        <h2>Connect With Me</h2>
         <div class="social-links">
             <a href="https://github.com/Sulaiman-Nedal" class="social-link">
                 <i class="fab fa-github"></i>
@@ -113,14 +113,14 @@
     </section>
 
     <section id="contact" class="contact">
-        <h2>Kontakt</h2>
+        <h2>Contact</h2>
         <div class="contact-info">
             <p><i class="fas fa-envelope"></i>s87salor@uni-bonn.de</p>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Sulaeman Aloradi. Alle Rechte vorbehalten</p>
+        <p>&copy; 2025 Sulaeman Aloradi. All rights reserved</p>
     </footer>
 
     <script src="script.js"></script>
